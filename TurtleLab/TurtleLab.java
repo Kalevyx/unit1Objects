@@ -26,6 +26,7 @@ public class TurtleLab
         turtle1.turn(45);
         turtle1.penDown();
         turtle1.forward(100);
+        turtle1.backward(200);
         
         //turtle2.hide();
         turtle2.backward(100);
@@ -42,5 +43,10 @@ public class TurtleLab
         turtle2.turn(135);
         turtle2.forward(100);
         turtle2.turn(45);
+        turtle2.forward(100);
+        turtle2.turn(-45);
+        turtle2.penDown();
+        turtle2.forward(100);
+        turtle2.backward(200);
     }
 }
